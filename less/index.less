@@ -1,0 +1,210 @@
+// 变量表
+@import './variable.less';
+// 清除浏览器默认样式
+@import './reset.less';
+// 适配表
+@import './adapter.less';
+body{
+	background-color: #f5f5f5;
+}
+.header {
+	height:(90rem/32);
+	width:100%;
+	background-color:@header_bg;
+	padding:(26rem/32) (36rem/32);
+	box-sizing: border-box;
+	position: relative;
+//返回按钮
+	.re{
+		display: inline-block;
+		background: url('../img/1.png');
+		width: (22rem/32);
+		height: (32rem/32);
+		background-size: (20rem/32) (32rem/32);
+
+	}
+//返回
+	.return{
+		display: inline-block;
+		color:#fff;
+		font-size: (32rem/32);
+
+	}
+
+	//关闭
+	.down{
+		display: inline-block;
+		color:#fff;
+		font-size: (32rem/32);
+
+	}
+	//标题
+	.tit{
+		position: absolute;
+		left: 44%;
+		display: inline-block;
+		color:#fff;
+		font-size: (38rem/32);
+	}
+
+	.more{
+		display: inline-block;
+		background: url('../img/2.png');
+		width:(43rem/32);
+		height:(10rem/32);
+		background-size: (43rem/32) (10rem/32);
+		position: absolute;
+		left: 90%;
+		top: 1.4rem;
+	}
+
+}
+
+//banner
+.banner{
+	width:100%;
+	height:100%;
+	//第一个图
+	.tu img{
+	width:100%;
+	}
+
+//上
+	.seach ul{
+		width:100%;
+		height:(66rem/32);
+		background-color:#fff;
+		color:#3f3f3f;
+	}
+	.seach li{
+		width:33.33%;
+		float: left;
+		height:(66rem/32);
+		text-align: center;
+		padding:(20rem/32) (20rem/32);
+		box-sizing: border-box;
+		color:#3f3f3f;
+	}
+	.seach li:first-child{
+		border-bottom: 3px solid #fe6a01;
+	}
+
+	.bar{
+		width:100%;
+		height:(110rem/32);
+		background-color:#f5f5f5;
+		padding:(22rem/32) (35rem/32);
+		box-sizing: border-box;
+	}
+	.bar input{
+		text-align: center;
+		width:100%;
+		height:(58rem/32);
+		color:#ccc;
+		border:1px solid #ccc;
+		border-radius: 10px;
+	}
+
+	.bar i{
+		display: inline-block;
+		background: url('../img/4.png');
+		width:(38rem/32);
+		height:(38rem/32);
+		background-size: (38rem/32) (38rem/32);
+		position: absolute;
+		right: 7%;
+    	top: 34%;
+	}
+
+	//马东
+	.maDong{
+		width:100%;
+		height:(334rem/32);
+		background-color:#fff;
+		padding: 5% 5%;
+		box-sizing: border-box;
+		border-bottom: 1px solid #ccc;
+
+		p{
+		color:#999;
+		font-size:(30rem/32);
+		}
+
+		i{
+		display: inline-block;
+		background: url('../img/5.png');
+		width:(440rem/32);
+		height:(86rem/32);
+		background-size: (440rem/32) (86rem/32);
+		margin:(24rem/32) 0;
+		}
+		.md{
+		font-size: (22rem/32);
+		}
+		.ceo{
+		font-size: (22rem/32);
+		margin-left:(14rem/32);
+		}
+	}
+
+	//岳云鹏
+	.yue{
+		margin-top:(22rem/32);
+		width:100%;
+		height:(250rem/32);
+		background-color:#fff;
+		padding: 5% 5%;
+		box-sizing: border-box;
+		border-bottom: 1px solid #ccc;
+
+
+		p{
+		color:#999;
+		font-size:(30rem/32);
+		}
+
+		i{
+		display: inline-block;
+		background: url('../img/6.png');
+		width:(440rem/32);
+		height:(86rem/32);
+		background-size: (440rem/32) (86rem/32);
+		margin:(24rem/32) 0;
+		}
+		.md{
+		font-size: (22rem/32);
+		}
+		.ceo{
+		font-size: (22rem/32);
+		margin-left:(14rem/32);
+		}
+
+	}
+
+	//被遮挡住的框
+	.kuang{
+		margin-top:(22rem/32);
+		width:100%;
+		height:(100rem/32);
+		background-color:#fff;
+		box-sizing: border-box;
+
+	p{
+		text-align: center;
+		padding-top:(64rem/32);
+	}
+
+	}
+
+}
+.footer{
+	width:100%;
+	height:(100rem/32);
+	position: fixed;
+	bottom: 0;
+
+	img{
+	width:100%;
+	height:(100rem/32);
+	}
+}
